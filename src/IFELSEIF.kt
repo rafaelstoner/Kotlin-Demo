@@ -4,24 +4,25 @@
 fun main(){
 
 
-    print("Enter your grade: ")
-    val grade = readLine()!!.toInt()
+
+    print("Introduza sua idade")
+    val age = readLine()!!.toInt()
 
 
-    if(grade>= 90){
+    if(age<= 13){
 
-        println("A")
+        println("Crianca")
 
-    } else if(grade in 80..89){
-        println("B")
-    }else if(grade in 70..79){
-        println("C")
+    } else if(age in 14..17){
+        println("Adolescente")
+    }else if(age in 18..21){
+        println("Jovem")
     }else {
-        println("Fail")
+        println("Adulto")
     }
 
 
-    println("End of App")
+    println("Fim do App")
 
 
 }
