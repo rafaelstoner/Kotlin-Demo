@@ -1,7 +1,7 @@
 
 fun main(){
 
-    println("Welcome to kotlin")
+    println("Bem vindo ao Kotlin")
     println(" Stoner")
 
 
