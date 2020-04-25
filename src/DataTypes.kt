@@ -2,6 +2,7 @@
 
 fun main(){
     // variavel String declarada
+
     var str:String
     str="Welcome to Kotlin"
 
