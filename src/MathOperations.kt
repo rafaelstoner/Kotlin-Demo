@@ -1,7 +1,7 @@
 
 fun main(){
 
-    println("Simple Calculator")
+    println("Simple Calculator / Calculadora Simples")
     print("Enter number1: ")
     val number1 = readLine()!!.toDouble()
     print("Enter number1: ")
