@@ -3,15 +3,15 @@
 
 fun main(){
 
-    print("Enter your age: ")
+    print("Introduza a idade: ")
     val age = readLine()!!.toInt()
 
     if(age >=18){
-        println("You could apply for the job")
+        println("Pode concorrer para o emprego")
     }else{
-        println("You can not apply for the job")
+        println("Nao tem idade para o emprego")
     }
 
-    print("END APP")
+    print("Fim do app")
 
 }
