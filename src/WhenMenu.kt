@@ -13,7 +13,7 @@ fun  main(){
             print("You got Salat")
         }
 
-        10 ->{
+         10 ->{
             println(" You got burger")
         }
 
