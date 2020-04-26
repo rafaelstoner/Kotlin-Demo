@@ -5,8 +5,8 @@
 fun main(){
 
 
-    val message= " Welcome to new York?"
-    val name = "Hussein"
+    val message= " Welcome to Mozambique"
+    val name = "Stoner"
     val allMessage = "$name,$message"
     println(allMessage[0])
     println(allMessage.toLowerCase())
