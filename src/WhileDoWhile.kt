@@ -7,7 +7,7 @@
 fun main(){
 
     println("For Loop")
-    for (i in 11..10 step 2){
+    for (i in 1..6 step 2){
         println("Counter $i")
     }
 
@@ -15,7 +15,7 @@ fun main(){
     println("While Loop")
 
     var i=11
-    while (i<=10){
+    while (i<=15){
 
         println("Counter $i")
         i += 2
