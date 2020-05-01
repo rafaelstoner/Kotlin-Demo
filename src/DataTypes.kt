@@ -6,9 +6,10 @@ fun main(){
     var str:String
     str="Welcome to Kotlin"
 
-    //Variavel String auto detetada
+    //Variavel com tipo auto detetado
     val name   = "Stoner"
     val age  =20
+
 
 
     println("===== User info ===== ")
@@ -26,7 +27,7 @@ fun main(){
     var department:String?
     department = null
     department = "Software Engineering"
-    print("Department ${department!!}")
+    print("Department ${department}")
 
 
 }
