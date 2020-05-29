@@ -1,13 +1,11 @@
 
-
-
-
 fun main(){
 
     println("Pets App")
     print("Enter number of Pets: ")
     val maxSize = readLine()!!.toInt()
     //Write App in Array
+
     val listOfPets:Array<String> = Array(maxSize){""}
     for(i in 0 until  maxSize){
         print("Enter Pet name $i:")
