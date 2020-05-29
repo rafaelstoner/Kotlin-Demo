@@ -1,7 +1,4 @@
 
-
-
-
 fun main(){
 
     println("Continue Example")
