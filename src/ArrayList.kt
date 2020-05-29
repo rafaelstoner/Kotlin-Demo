@@ -5,15 +5,15 @@ fun main(){
     arraylist.add("Rafa")
     arraylist.add("Stoner")
 
-    println("Second name: "+arraylist.get(1))
+    println("Second name: "+ arraylist[1])
 
     println("All elements")
     for(item in arraylist){
         println(item)
     }
     //Replace
-    arraylist.set(0, "King")
-    println("First element: "+arraylist.get(0))
+    arraylist[0] = "King"
+    println("First element: "+ arraylist[0])
 
     //Search
     if(arraylist.contains("Stoner")){
