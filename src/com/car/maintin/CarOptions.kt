@@ -1,5 +1,6 @@
 package com.car.maintin
 
+//the word open enables a class to be inherited
 open class CarOptions(){
      var type:String?=null
      var model:Int?=null
