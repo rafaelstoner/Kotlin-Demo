@@ -1,9 +1,4 @@
 
-
-
-
-
-
 fun main(){
 
     println("For Loop")
