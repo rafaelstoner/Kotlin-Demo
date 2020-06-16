@@ -23,8 +23,14 @@ fun main(){
 
 
     val listOfUsersI = mapOf(1 to "Rafa", 2 to "Stoner")
+    for (item in listOfUsersI) {
+        println(item)
+    }
 
     var listOfUsersM = mutableMapOf(1 to "Rafa", 2 to "Stoner")
+    for (item in listOfUsersM) {
+        println(item)
+    }
 
 
 
