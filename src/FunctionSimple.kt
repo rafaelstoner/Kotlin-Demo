@@ -1,7 +1,6 @@
 
 
-fun addNumbers(x:Double=0.0,y:Double=0.0):Double{
-
+fun addNumbers(x:Double=0.0,y:Double=0.0):Double {
     return x+y
 
 }
@@ -32,7 +31,7 @@ fun main(){
     println("returnAdd: $returnAdd")
 
 
-    displayInfo( names = *arrayOf("Jena","Laya","Dora"))
+    displayInfo( names = *arrayOf("Rafa","Stoner","Naiene"))
 
     println("End Main Fun")
 }
