@@ -11,11 +11,11 @@ fun main(){
     do{
         print("Enter Pet name  or exit to quit:")
         val petName =readLine()!!.toString()
-        if(petName != "quit"){
+        if(petName != "exit"){
             listOfPets.add(petName)
         }
 
-    }while (petName!="quit")
+    }while (petName!="exit")
 
     println("Your pets Are using Index")
     for(i in 0 until listOfPets.size){
