@@ -18,6 +18,6 @@ fun  showInfo(name:String){
 
 fun  main(){
 
-    showInfo("Hussein Alrubaye")
+    showInfo("Rafael Stoner")
     showInfo(7264374)
 }
