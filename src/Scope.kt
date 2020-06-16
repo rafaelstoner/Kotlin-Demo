@@ -10,7 +10,7 @@ fun showUserInfo(){
 
 
 fun main() {
-    name = "Hussein"
+    name = "Stoner"
     println(" $name")
     showUserInfo()
     println(" $name")
