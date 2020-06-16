@@ -6,6 +6,7 @@ open class CarOptions(){
      private var price:Double?=null
      var milesDrive:Int?=0
      var owner:String?=null
+
      constructor(  type:String,  model:Int,   price:Double,
                    milesDrive:Int,   owner:String):this(){
          this.type =type
@@ -38,7 +39,7 @@ open class CarOptions(){
 fun main() {
 
 
-    val car1 = CarOptions("BMW",2015,10000.0,105,"Hussein Alrubaye")
+    val car1 = CarOptions("BMW",2015,10000.0,105,"Rafael Stoner")
     car1.type="KIA"
     println(car1.type)
     println(car1.owner)
