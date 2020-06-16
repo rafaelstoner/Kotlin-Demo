@@ -7,6 +7,7 @@ package com.car.maintin
      println("Object class is created")
     }
 
+
     fun getCarPrice():Double{
 
         return this.price- (this.milesDrive.toDouble()*10)
