@@ -1,5 +1,5 @@
 
-
+//lambda
 val sum = {number1:Int, number2: Int ->
       number1 +number2
 }
