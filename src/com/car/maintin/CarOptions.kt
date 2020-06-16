@@ -22,6 +22,7 @@ open class CarOptions(){
         this.milesDrive=milesDrive
     }
 
+    //by default a method is final! To change it, you gotta use the word open. That also can be used for inheritance
     open fun getCarPrice():Double{
 
         return this.price!!- (this.milesDrive!!.toDouble()*10)
