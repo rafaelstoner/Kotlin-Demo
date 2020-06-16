@@ -21,21 +21,21 @@ package com.car.maintin
 fun main() {
 
     /*
-    val car1 = Car("BMW",2015,10000.0,105,"Hussein Alrubaye")
+    val car1 = Car("BMW",2015,10000.0,105,"Rafael Stoner")
     car1.type="KIA"
     println(car1.type)
     println(car1.owner)
     println(car1.getCarPrice())
 
-    val car2 = Car("Toyota",2019,39000.0,10,"Jena Alrubaye")
+    val car2 = Car("Toyota",2019,39000.0,10,"Manuel Naiene")
     println(car2.type)
     println(car2.owner)
     println(car2.getCarPrice())
     */
 
     val listOfCar = arrayListOf<Car>()
-    listOfCar.add(Car("BMW",2015,10000.0,105,"Hussein Alrubaye"))
-    listOfCar.add(Car("Toyota",2019,39000.0,10,"Jena Alrubaye"))
+    listOfCar.add(Car("BMW",2015,10000.0,105,"Rafael Stoner"))
+    listOfCar.add(Car("Toyota",2019,39000.0,10,"Manuel Naiene"))
 
     for(car in listOfCar){
         println("----------")
