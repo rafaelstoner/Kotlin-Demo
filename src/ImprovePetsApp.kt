@@ -5,12 +5,15 @@ import kotlin.collections.HashMap
 fun main(){
 
     var listOfUsers = HashMap<String,LinkedList<String>>()
+
     while (true ){
-        print(" Enter your name or quit: ")
+        print(" Enter your name or exit to quit: ")
         val name = readLine()!!.toString()
-        if(name=="quit"){
+
+        if(name=="exit"){
             break
         }
+
         print(" Where you live: ")
         val livePlace = readLine()!!.toString()
 
